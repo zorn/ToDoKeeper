@@ -33,18 +33,24 @@ static NSPersistentStore *defaultPersistentStore = nil;
 
 + (NSString *)applicationLibraryDirectory
 {
-
-#ifdef TARGET_OS_IPHONE
-	return [self directory:NSLibraryDirectory];
+#if !(TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
+    
+    NSString *applicationName = [[[NSBundle mainBundle] infoDictionary] valueForKey:(NSString *)kCFBundleNameKey];
+    NSString *appSupportDirectory = [[self directory:NSApplicationSupportDirectory] stringByAppendingPathComponent:applicationName];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if ( ![fileManager fileExistsAtPath:appSupportDirectory isDirectory:NULL] ) {
+        [fileManager createDirectoryAtPath:appSupportDirectory
+               withIntermediateDirectories:NO
+                                attributes:nil
+                                     error:NULL];
+    }
+    return appSupportDirectory;
+    
 #else
-	#ifdef TARGET_OS_MAC
-		NSString *applicationName = [[[NSBundle mainBundle] infoDictionary] valueForKey:(NSString *)kCFBundleNameKey];
-		return [[self directory:NSApplicationSupportDirectory] stringByAppendingPathComponent:applicationName];
-	#else
-		#warning Unsupported OS Target specified
-	#endif
+    
+    return [self directory:NSLibraryDirectory];
+    
 #endif
-
 }
 
 + (NSURL *) urlForStoreName:(NSString *)storeFileName
