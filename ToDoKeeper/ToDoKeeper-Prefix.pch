@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ToDoKeeper' target in the 'ToDoKeeper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "CoreData+ActiveRecordFetching.h"
+#endif

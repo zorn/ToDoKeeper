@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A041DED13BD3C140036D482 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A041DEC13BD3C140036D482 /* Cocoa.framework */; };
+		1A041DF713BD3C140036D482 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A041DF513BD3C140036D482 /* InfoPlist.strings */; };
+		1A041DF913BD3C150036D482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041DF813BD3C150036D482 /* main.m */; };
+		1A041DFD13BD3C150036D482 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A041DFB13BD3C150036D482 /* Credits.rtf */; };
+		1A041E0013BD3C150036D482 /* ToDoKeeperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041DFF13BD3C150036D482 /* ToDoKeeperAppDelegate.m */; };
+		1A041E0313BD3C150036D482 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A041E0113BD3C150036D482 /* MainMenu.xib */; };
+		1A041E0613BD3C150036D482 /* ToDoKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E0413BD3C150036D482 /* ToDoKeeper.xcdatamodeld */; };
+		1A041E0E13BD3C150036D482 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A041E0D13BD3C150036D482 /* SenTestingKit.framework */; };
+		1A041E0F13BD3C150036D482 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A041DEC13BD3C140036D482 /* Cocoa.framework */; };
+		1A041E1713BD3C150036D482 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A041E1513BD3C150036D482 /* InfoPlist.strings */; };
+		1A041E1913BD3C150036D482 /* ToDoKeeperTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A041E1813BD3C150036D482 /* ToDoKeeperTests.h */; };
+		1A041E1B13BD3C150036D482 /* ToDoKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E1A13BD3C150036D482 /* ToDoKeeperTests.m */; };
+		1A041E5813BD4BE00036D482 /* ActiveRecordHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E4813BD4BE00036D482 /* ActiveRecordHelpers.m */; };
+		1A041E5913BD4BE00036D482 /* ARCoreDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E4A13BD4BE00036D482 /* ARCoreDataAction.m */; };
+		1A041E5A13BD4BE00036D482 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A041E4C13BD4BE00036D482 /* LICENSE */; };
+		1A041E5B13BD4BE00036D482 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E4E13BD4BE00036D482 /* NSManagedObject+ActiveRecord.m */; };
+		1A041E5C13BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E5013BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.m */; };
+		1A041E5D13BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E5213BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.m */; };
+		1A041E5E13BD4BE00036D482 /* NSPersistentStore+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E5413BD4BE00036D482 /* NSPersistentStore+ActiveRecord.m */; };
+		1A041E5F13BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E5613BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.m */; };
+		1A041E6013BD4BE00036D482 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A041E5713BD4BE00036D482 /* README.md */; };
+		1A041E6313BD4E9E0036D482 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041E6213BD4E9E0036D482 /* ToDoItem.m */; };
+		1AEA80F013BE75980053FFAB /* Entitlements.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA80EF13BE75980053FFAB /* Entitlements.entitlements */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A041E1013BD3C150036D482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A041DDF13BD3C140036D482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A041DE713BD3C140036D482;
+			remoteInfo = ToDoKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A041DE813BD3C140036D482 /* ToDoKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A041DEC13BD3C140036D482 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A041DEF13BD3C140036D482 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A041DF013BD3C140036D482 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A041DF113BD3C140036D482 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A041DF413BD3C140036D482 /* ToDoKeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoKeeper-Info.plist"; sourceTree = "<group>"; };
+		1A041DF613BD3C140036D482 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A041DF813BD3C150036D482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A041DFA13BD3C150036D482 /* ToDoKeeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoKeeper-Prefix.pch"; sourceTree = "<group>"; };
+		1A041DFC13BD3C150036D482 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A041DFE13BD3C150036D482 /* ToDoKeeperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoKeeperAppDelegate.h; sourceTree = "<group>"; };
+		1A041DFF13BD3C150036D482 /* ToDoKeeperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoKeeperAppDelegate.m; sourceTree = "<group>"; };
+		1A041E0213BD3C150036D482 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A041E0513BD3C150036D482 /* ToDoKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoKeeper.xcdatamodel; sourceTree = "<group>"; };
+		1A041E0C13BD3C150036D482 /* ToDoKeeperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoKeeperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A041E0D13BD3C150036D482 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A041E1413BD3C150036D482 /* ToDoKeeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoKeeperTests-Info.plist"; sourceTree = "<group>"; };
+		1A041E1613BD3C150036D482 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A041E1813BD3C150036D482 /* ToDoKeeperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoKeeperTests.h; sourceTree = "<group>"; };
+		1A041E1A13BD3C150036D482 /* ToDoKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoKeeperTests.m; sourceTree = "<group>"; };
+		1A041E2413BD3C150036D482 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		1A041E2613BD3C150036D482 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1A041E2813BD3C150036D482 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A041E2A13BD3C150036D482 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A041E4713BD4BE00036D482 /* ActiveRecordHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveRecordHelpers.h; sourceTree = "<group>"; };
+		1A041E4813BD4BE00036D482 /* ActiveRecordHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveRecordHelpers.m; sourceTree = "<group>"; };
+		1A041E4913BD4BE00036D482 /* ARCoreDataAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoreDataAction.h; sourceTree = "<group>"; };
+		1A041E4A13BD4BE00036D482 /* ARCoreDataAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoreDataAction.m; sourceTree = "<group>"; };
+		1A041E4B13BD4BE00036D482 /* CoreData+ActiveRecordFetching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+ActiveRecordFetching.h"; sourceTree = "<group>"; };
+		1A041E4C13BD4BE00036D482 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A041E4D13BD4BE00036D482 /* NSManagedObject+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+ActiveRecord.h"; sourceTree = "<group>"; };
+		1A041E4E13BD4BE00036D482 /* NSManagedObject+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+ActiveRecord.m"; sourceTree = "<group>"; };
+		1A041E4F13BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+ActiveRecord.h"; sourceTree = "<group>"; };
+		1A041E5013BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ActiveRecord.m"; sourceTree = "<group>"; };
+		1A041E5113BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+ActiveRecord.h"; sourceTree = "<group>"; };
+		1A041E5213BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+ActiveRecord.m"; sourceTree = "<group>"; };
+		1A041E5313BD4BE00036D482 /* NSPersistentStore+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+ActiveRecord.h"; sourceTree = "<group>"; };
+		1A041E5413BD4BE00036D482 /* NSPersistentStore+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+ActiveRecord.m"; sourceTree = "<group>"; };
+		1A041E5513BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+ActiveRecord.h"; sourceTree = "<group>"; };
+		1A041E5613BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+ActiveRecord.m"; sourceTree = "<group>"; };
+		1A041E5713BD4BE00036D482 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1A041E6113BD4E9D0036D482 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		1A041E6213BD4E9E0036D482 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		1AEA80EF13BE75980053FFAB /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A041DE513BD3C140036D482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A041DED13BD3C140036D482 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A041E0813BD3C150036D482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A041E0E13BD3C150036D482 /* SenTestingKit.framework in Frameworks */,
+				1A041E0F13BD3C150036D482 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A041DDD13BD3C140036D482 = {
+			isa = PBXGroup;
+			children = (
+				1AEA80EF13BE75980053FFAB /* Entitlements.entitlements */,
+				1A041DF213BD3C140036D482 /* ToDoKeeper */,
+				1A041E1213BD3C150036D482 /* ToDoKeeperTests */,
+				1A041DEB13BD3C140036D482 /* Frameworks */,
+				1A041DE913BD3C140036D482 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A041DE913BD3C140036D482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A041DE813BD3C140036D482 /* ToDoKeeper.app */,
+				1A041E0C13BD3C150036D482 /* ToDoKeeperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A041DEB13BD3C140036D482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A041DEC13BD3C140036D482 /* Cocoa.framework */,
+				1A041E0D13BD3C150036D482 /* SenTestingKit.framework */,
+				1A041E2413BD3C150036D482 /* CoreServices.framework */,
+				1A041E2613BD3C150036D482 /* CoreFoundation.framework */,
+				1A041E2813BD3C150036D482 /* CoreData.framework */,
+				1A041E2A13BD3C150036D482 /* Foundation.framework */,
+				1A041DEE13BD3C140036D482 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A041DEE13BD3C140036D482 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A041DEF13BD3C140036D482 /* AppKit.framework */,
+				1A041DF013BD3C140036D482 /* CoreData.framework */,
+				1A041DF113BD3C140036D482 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A041DF213BD3C140036D482 /* ToDoKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				1A041E4613BD4BE00036D482 /* MagicalRecord */,
+				1A041DFE13BD3C150036D482 /* ToDoKeeperAppDelegate.h */,
+				1A041DFF13BD3C150036D482 /* ToDoKeeperAppDelegate.m */,
+				1A041E0113BD3C150036D482 /* MainMenu.xib */,
+				1A041E0413BD3C150036D482 /* ToDoKeeper.xcdatamodeld */,
+				1A041E6113BD4E9D0036D482 /* ToDoItem.h */,
+				1A041E6213BD4E9E0036D482 /* ToDoItem.m */,
+				1A041DF313BD3C140036D482 /* Supporting Files */,
+			);
+			path = ToDoKeeper;
+			sourceTree = "<group>";
+		};
+		1A041DF313BD3C140036D482 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A041DF413BD3C140036D482 /* ToDoKeeper-Info.plist */,
+				1A041DF513BD3C140036D482 /* InfoPlist.strings */,
+				1A041DF813BD3C150036D482 /* main.m */,
+				1A041DFA13BD3C150036D482 /* ToDoKeeper-Prefix.pch */,
+				1A041DFB13BD3C150036D482 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A041E1213BD3C150036D482 /* ToDoKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A041E1813BD3C150036D482 /* ToDoKeeperTests.h */,
+				1A041E1A13BD3C150036D482 /* ToDoKeeperTests.m */,
+				1A041E1313BD3C150036D482 /* Supporting Files */,
+			);
+			path = ToDoKeeperTests;
+			sourceTree = "<group>";
+		};
+		1A041E1313BD3C150036D482 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A041E1413BD3C150036D482 /* ToDoKeeperTests-Info.plist */,
+				1A041E1513BD3C150036D482 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A041E4613BD4BE00036D482 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				1A041E4713BD4BE00036D482 /* ActiveRecordHelpers.h */,
+				1A041E4813BD4BE00036D482 /* ActiveRecordHelpers.m */,
+				1A041E4913BD4BE00036D482 /* ARCoreDataAction.h */,
+				1A041E4A13BD4BE00036D482 /* ARCoreDataAction.m */,
+				1A041E4B13BD4BE00036D482 /* CoreData+ActiveRecordFetching.h */,
+				1A041E4C13BD4BE00036D482 /* LICENSE */,
+				1A041E4D13BD4BE00036D482 /* NSManagedObject+ActiveRecord.h */,
+				1A041E4E13BD4BE00036D482 /* NSManagedObject+ActiveRecord.m */,
+				1A041E4F13BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.h */,
+				1A041E5013BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.m */,
+				1A041E5113BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.h */,
+				1A041E5213BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.m */,
+				1A041E5313BD4BE00036D482 /* NSPersistentStore+ActiveRecord.h */,
+				1A041E5413BD4BE00036D482 /* NSPersistentStore+ActiveRecord.m */,
+				1A041E5513BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.h */,
+				1A041E5613BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.m */,
+				1A041E5713BD4BE00036D482 /* README.md */,
+			);
+			name = MagicalRecord;
+			path = ThirdParty/MagicalRecord;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A041DE713BD3C140036D482 /* ToDoKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A041E4013BD3C150036D482 /* Build configuration list for PBXNativeTarget "ToDoKeeper" */;
+			buildPhases = (
+				1A041DE413BD3C140036D482 /* Sources */,
+				1A041DE513BD3C140036D482 /* Frameworks */,
+				1A041DE613BD3C140036D482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoKeeper;
+			productName = ToDoKeeper;
+			productReference = 1A041DE813BD3C140036D482 /* ToDoKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A041E0B13BD3C150036D482 /* ToDoKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A041E4313BD3C150036D482 /* Build configuration list for PBXNativeTarget "ToDoKeeperTests" */;
+			buildPhases = (
+				1A041E0713BD3C150036D482 /* Sources */,
+				1A041E0813BD3C150036D482 /* Frameworks */,
+				1A041E0913BD3C150036D482 /* Resources */,
+				1A041E0A13BD3C150036D482 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A041E1113BD3C150036D482 /* PBXTargetDependency */,
+			);
+			name = ToDoKeeperTests;
+			productName = ToDoKeeperTests;
+			productReference = 1A041E0C13BD3C150036D482 /* ToDoKeeperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A041DDF13BD3C140036D482 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A041DE213BD3C140036D482 /* Build configuration list for PBXProject "ToDoKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A041DDD13BD3C140036D482;
+			productRefGroup = 1A041DE913BD3C140036D482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A041DE713BD3C140036D482 /* ToDoKeeper */,
+				1A041E0B13BD3C150036D482 /* ToDoKeeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A041DE613BD3C140036D482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A041DF713BD3C140036D482 /* InfoPlist.strings in Resources */,
+				1A041DFD13BD3C150036D482 /* Credits.rtf in Resources */,
+				1A041E0313BD3C150036D482 /* MainMenu.xib in Resources */,
+				1A041E5A13BD4BE00036D482 /* LICENSE in Resources */,
+				1A041E6013BD4BE00036D482 /* README.md in Resources */,
+				1AEA80F013BE75980053FFAB /* Entitlements.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A041E0913BD3C150036D482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A041E1713BD3C150036D482 /* InfoPlist.strings in Resources */,
+				1A041E1913BD3C150036D482 /* ToDoKeeperTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A041E0A13BD3C150036D482 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A041DE413BD3C140036D482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A041DF913BD3C150036D482 /* main.m in Sources */,
+				1A041E0013BD3C150036D482 /* ToDoKeeperAppDelegate.m in Sources */,
+				1A041E0613BD3C150036D482 /* ToDoKeeper.xcdatamodeld in Sources */,
+				1A041E5813BD4BE00036D482 /* ActiveRecordHelpers.m in Sources */,
+				1A041E5913BD4BE00036D482 /* ARCoreDataAction.m in Sources */,
+				1A041E5B13BD4BE00036D482 /* NSManagedObject+ActiveRecord.m in Sources */,
+				1A041E5C13BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.m in Sources */,
+				1A041E5D13BD4BE00036D482 /* NSManagedObjectModel+ActiveRecord.m in Sources */,
+				1A041E5E13BD4BE00036D482 /* NSPersistentStore+ActiveRecord.m in Sources */,
+				1A041E5F13BD4BE00036D482 /* NSPersistentStoreCoordinator+ActiveRecord.m in Sources */,
+				1A041E6313BD4E9E0036D482 /* ToDoItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A041E0713BD3C150036D482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A041E1B13BD3C150036D482 /* ToDoKeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A041E1113BD3C150036D482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A041DE713BD3C140036D482 /* ToDoKeeper */;
+			targetProxy = 1A041E1013BD3C150036D482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A041DF513BD3C140036D482 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A041DF613BD3C140036D482 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A041DFB13BD3C150036D482 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A041DFC13BD3C150036D482 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1A041E0113BD3C150036D482 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A041E0213BD3C150036D482 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1A041E1513BD3C150036D482 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A041E1613BD3C150036D482 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A041E3B13BD3C150036D482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A041E3C13BD3C150036D482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A041E4113BD3C150036D482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
+				INFOPLIST_FILE = "ToDoKeeper/ToDoKeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A041E4213BD3C150036D482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
+				INFOPLIST_FILE = "ToDoKeeper/ToDoKeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A041E4413BD3C150036D482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToDoKeeper.app/Contents/MacOS/ToDoKeeper";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
+				INFOPLIST_FILE = "ToDoKeeperTests/ToDoKeeperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A041E4513BD3C150036D482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToDoKeeper.app/Contents/MacOS/ToDoKeeper";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
+				INFOPLIST_FILE = "ToDoKeeperTests/ToDoKeeperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A041DE213BD3C140036D482 /* Build configuration list for PBXProject "ToDoKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A041E3B13BD3C150036D482 /* Debug */,
+				1A041E3C13BD3C150036D482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A041E4013BD3C150036D482 /* Build configuration list for PBXNativeTarget "ToDoKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A041E4113BD3C150036D482 /* Debug */,
+				1A041E4213BD3C150036D482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A041E4313BD3C150036D482 /* Build configuration list for PBXNativeTarget "ToDoKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A041E4413BD3C150036D482 /* Debug */,
+				1A041E4513BD3C150036D482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A041E0413BD3C150036D482 /* ToDoKeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A041E0513BD3C150036D482 /* ToDoKeeper.xcdatamodel */,
+			);
+			currentVersion = 1A041E0513BD3C150036D482 /* ToDoKeeper.xcdatamodel */;
+			path = ToDoKeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A041DDF13BD3C140036D482 /* Project object */;
+}
