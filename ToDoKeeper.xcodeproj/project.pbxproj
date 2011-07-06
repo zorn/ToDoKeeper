@@ -203,12 +203,12 @@
 		1A041E4613BD4BE00036D482 /* MagicalRecord */ = {
 			isa = PBXGroup;
 			children = (
+				1A041E4C13BD4BE00036D482 /* LICENSE */,
+				1A041E4B13BD4BE00036D482 /* CoreData+ActiveRecordFetching.h */,
 				1A041E4713BD4BE00036D482 /* ActiveRecordHelpers.h */,
 				1A041E4813BD4BE00036D482 /* ActiveRecordHelpers.m */,
 				1A041E4913BD4BE00036D482 /* ARCoreDataAction.h */,
 				1A041E4A13BD4BE00036D482 /* ARCoreDataAction.m */,
-				1A041E4B13BD4BE00036D482 /* CoreData+ActiveRecordFetching.h */,
-				1A041E4C13BD4BE00036D482 /* LICENSE */,
 				1A041E4D13BD4BE00036D482 /* NSManagedObject+ActiveRecord.h */,
 				1A041E4E13BD4BE00036D482 /* NSManagedObject+ActiveRecord.m */,
 				1A041E4F13BD4BE00036D482 /* NSManagedObjectContext+ActiveRecord.h */,
@@ -451,7 +451,7 @@
 		1A041E4113BD3C150036D482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
 				INFOPLIST_FILE = "ToDoKeeper/ToDoKeeper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";

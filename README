@@ -1,0 +1,9 @@
+Important: In iOS 5 seed release 2, the compiler and header files are out of sync, causing compile time errors for ARC applications. To fix this, you must change header files in the platform SDK:
+In System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h, change:
+CFTypeRef CFMakeCollectable(CFTypeRef cf) CF_AUTOMATED_REFCOUNT_UNAVAILABLE;
+to:
+CFTypeRef CFMakeCollectable(CFTypeRef cf);
+In System/Library/Frameworks/Foundation.framework/Headers/NSObject.h, change:
+return (__bridge_retain CFTypeRef)X;
+to:
+return (__bridge_retained CFTypeRef)X;
