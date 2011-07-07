@@ -451,6 +451,8 @@
 		1A041E4113BD3C150036D482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
 				INFOPLIST_FILE = "ToDoKeeper/ToDoKeeper-Info.plist";
@@ -462,6 +464,8 @@
 		1A041E4213BD3C150036D482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToDoKeeper/ToDoKeeper-Prefix.pch";
 				INFOPLIST_FILE = "ToDoKeeper/ToDoKeeper-Info.plist";

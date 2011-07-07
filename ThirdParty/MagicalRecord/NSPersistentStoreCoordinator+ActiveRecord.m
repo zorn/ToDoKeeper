@@ -68,7 +68,10 @@ static NSPersistentStoreCoordinator *defaultCoordinator = nil;
 
 + (NSPersistentStoreCoordinator *) coordinatorWithSqliteStoreNamed:(NSString *)storeFileName
 {
-	return [self coordinatorWithSqliteStoreNamed:storeFileName withOptions:nil];
+    NSDictionary *options = nil;
+    //options = [NSDictionary dictionaryWithObjectsAndKeys:@"NLLUB3XG7Q.com.clickablebliss.todokeeper", NSPersistentStoreUbiquitousContentNameKey, nil];
+
+    return [self coordinatorWithSqliteStoreNamed:storeFileName withOptions:options];
 }
 
 - (void) setupAutoMigratingSqliteStoreNamed:(NSString *) storeFileName

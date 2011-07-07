@@ -4,6 +4,9 @@
 
 #define kCreateNewCoordinatorOnBackgroundOperations     0
 
+
+#define kUseICloudStorage 1
+
 #define ENABLE_ACTIVE_RECORD_LOGGING
 
 #ifdef ENABLE_ACTIVE_RECORD_LOGGING
